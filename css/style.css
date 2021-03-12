@@ -1,0 +1,243 @@
+:root {
+  --title-text-color: #212121;
+  --main-text-color: #757575;
+  --alternative-text-color: #2196f3;
+  --white-words: #ffffff;
+}
+
+.page {
+  font-family: Roboto, Arial, sans-serif;
+  background-color: #ffffff;
+  color: #757575;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Buttons */
+
+.button {
+  color: var(--title-text-color);
+  cursor: pointer;
+}
+
+.button:hover,
+.button:hover {
+  background-color: var(--alternative-text-color);
+  color: var(--white-words);
+}
+
+.primary {
+  width: 200px;
+  height: 50px;
+  background: var(--alternative-text-color);
+  color: var(--white-words);
+  cursor: pointer;
+}
+
+/* Header */
+
+.logo {
+  color: var(--alternative-text-color);
+  font-family: Raleway;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.logo-2nd-part {
+  color: var(--title-text-color);
+  font-family: Raleway;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+/* site nav */
+
+.site-nav .link {
+  color: var(--title-text-color);
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--alternative-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .current {
+  color: var(--alternative-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+/* authoriz-nav*/
+
+.authoriz-nav .item {
+  color: var(--main-text-color);
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2px;
+  letter-spacing: 0.02em;
+}
+
+.authoriz-nav .item:hover,
+.authoriz-nav .item:focus {
+  color: var(--alternative-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+/* Main page */
+/* Главная часть */
+
+h2 {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.section-hero {
+  background: #2f303a;
+}
+
+.section-hero .title {
+  color: var(--white-words);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.our-principles .title {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.2px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.our-principles .text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+}
+
+.our-team {
+  background-color: #f5f4fa;
+}
+
+.workers-title {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.workers .text {
+  color: var(--main-text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+/* Portfolio */
+
+.portfolio-page {
+  font-family: Roboto, Arial, sans-serif;
+  background-color: #ffffff;
+  color: #757575;
+}
+
+/* nav-section */
+/* Projects */
+.projects-title {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects-works {
+  color: var(--main-text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+
+/* footer section*/
+.footer {
+  background-color: #2f303a;
+  color: var(--main-text-color);
+}
+
+.logo-2nd-part-footer {
+  color: var(--white-words);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.footer .text {
+  color: var(--white-words);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.footer-link .item {
+  color: var(--main-text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
