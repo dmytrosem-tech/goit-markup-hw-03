@@ -4,9 +4,21 @@
   --alternative-text-color: #2196f3;
   --white-words: #ffffff;
   --bg-color: #2f303a;
+  --bg-button: #F5F4FA;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, 
+*::before, 
+*::after {
+  box-sizing: inherit;
 }
 
 .page {
+  margin: 0;
   font-family: Roboto, sans-serif;
   background-color: var(--white-words);
   color: var(--main-text-color);
@@ -30,8 +42,15 @@
 /* Buttons */
 
 .button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 6px 22px;
+  min-width: 73px;
   color: var(--title-text-color);
+  background-color: var(--bg-button);
   cursor: pointer;
+  text-decoration: none;
+
 }
 
 .button:hover,
@@ -46,9 +65,38 @@
   background: var(--alternative-text-color);
   color: var(--white-words);
   cursor: pointer;
+  border-radius: 4px;
+  padding: 10px 32px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  outline: 2px solid tomato;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin-top:0;
+  margin-bottom: 0;
+}
+ 
+h2 {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+ul {
+  padding-inline-start: 0;
 }
 
 /* Header */
+.page-header {
+  outline: 2px solid tomato;
+}
 
 .logo {
   color: var(--alternative-text-color);
@@ -113,19 +161,26 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+
+.authoriz-nav {  
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+
 /* Main page */
 /* Главная часть */
 
-h2 {
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-}
-
 .section-hero {
+  width: 1600px;
+  height:  600px;
   background: var(--bg-color);
+  outline: 2px solid green;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-hero .title {
@@ -133,21 +188,24 @@ h2 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  outline: 2px solid red;
+  margin-top: 200x;
+  margin-bottom: 30px;
 }
 
-.our-principles .title {
+.principles .principe-item {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.2px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  outline: 2px solid tomato;
 }
 
-.our-principles .text {
+.principles .text {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -155,8 +213,20 @@ h2 {
   letter-spacing: 0.03em;
 }
 
+.our-work .works-title {
+  margin-bottom: 50px;
+}
+
 .our-team {
   background-color: #f5f4fa;
+}
+
+.our-team .team-title {
+  margin-bottom: 50px;
+}
+
+.worker-image {
+  margin-bottom: 30px;
 }
 
 .workers-title {
@@ -166,6 +236,7 @@ h2 {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 
 .workers .text {
@@ -185,6 +256,11 @@ h2 {
 }
 
 /* nav-section */
+
+.portfolio-nav {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 /* Projects */
 .projects-title {
   color: var(--title-text-color);
