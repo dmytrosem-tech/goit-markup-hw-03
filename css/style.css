@@ -355,11 +355,17 @@ ul {
 }
 
 .projects-title {
+  margin: 20px 24px 4px 24px;
+
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+}
+
+.projects-title .big {
+  width: 322px;
 }
 
 .project-list {
@@ -388,6 +394,7 @@ ul {
 }
 
 .projects-works {
+  margin: 0 24px 20px 24px;
   color: var(--main-text-color);
   font-weight: 400;
   font-size: 16px;
