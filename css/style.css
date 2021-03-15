@@ -301,13 +301,24 @@ ul {
   margin-left: 30px;
 }
 
+.workers .item {
+  background-color: var(--white-words);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .worker-image {
   margin-bottom: 30px;
 }
 
 .workers-title {
+  margin-top: 30px;
+  margin-right: auto;
   margin-bottom: 10px;
+  margin-left: auto;
 
+  text-align: center;
+  width: 152px;
   color: var(--title-text-color);
   font-style: normal;
   font-weight: 500;
@@ -317,6 +328,12 @@ ul {
 }
 
 .workers .text {
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+
+  text-align: center;
+  width: 147px;
   color: var(--main-text-color);
   font-weight: 400;
   font-size: 16px;
