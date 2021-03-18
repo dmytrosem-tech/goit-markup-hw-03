@@ -41,36 +41,6 @@ html {
   list-style: none;
 }
 
-/* Buttons */
-
-.button {
-  display: inline-block;
-  padding: 6px 22px;
-
-  min-width: 73px;
-  border-radius: 4px;
-  color: var(--title-text-color);
-  background-color: var(--bg-button);
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.button:hover,
-.button:hover {
-  background-color: var(--alternative-text-color);
-  color: var(--white-words);
-}
-
-.primary {
-  padding: 10px 32px;
-  width: 200px;
-  height: 50px;
-  background: var(--alternative-text-color);
-  color: var(--white-words);
-  cursor: pointer;
-  border-radius: 4px;
-}
-
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -114,6 +84,36 @@ ul {
   padding-inline-start: 0;
 }
 
+/* Buttons */
+
+.button {
+  display: inline-block;
+  padding: 6px 22px;
+
+  min-width: 73px;
+  border-radius: 4px;
+  color: var(--title-text-color);
+  background-color: var(--bg-button);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button:hover,
+.button:hover {
+  background-color: var(--alternative-text-color);
+  color: var(--white-words);
+}
+
+.primary {
+  padding: 10px 32px;
+  width: 200px;
+  height: 50px;
+  background: var(--alternative-text-color);
+  color: var(--white-words);
+  cursor: pointer;
+  border-radius: 4px;
+}
+
 /* Header */
 .page-header {
   border: 2px solid #ececec;
@@ -148,7 +148,6 @@ ul {
 /* site nav */
 .navig {
   display: flex;
-  flex-direction: row;
 }
 
 .site-nav {
@@ -379,7 +378,7 @@ ul {
   letter-spacing: 0.06em;
 }
 
-.projects-title .big {
+.projects-link .big {
   width: 322px;
 }
 
